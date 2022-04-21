@@ -1,7 +1,10 @@
+import Form from './Form';
+
 function App() {
   return (
-    <div className="bg-black h-screen flex items-center justify-center">
-      <h3 className="text-white text-2xl">Hello world</h3>
+    <div className="bg-gray-50 h-screen flex flex-col items-center justify-center gap-4">
+      <h1 className="text-back text-2xl">Floating labels demo</h1>
+      <Form />
     </div>
   );
 }
